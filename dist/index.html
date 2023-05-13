@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Harsh Shetty - Portfolio Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-inverse navbar-fixed-top transparent">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand"  target="newwindow">Shogun</a>
+    </div> <!-- .navbar-header -->
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div> <!-- .navbar-collapse -->
+  </div> <!-- .container -->
+</nav>
+<main data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div class="jumbotron photo-cover text-inverse">
+      <div class="col-md-6 text-center center">
+        <h1>Harsh Shetty</h1>
+        <p >Computer Science Engineering Student</p>
+        <a href="#about">
+        
+        </a>
+      </div> <!-- .col-md-6 -->
+    </div> <!-- .jumbotron -->
+  <div id="about" class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class=" col-md-8 col-md-offset-2 text-center">
+        <h2>About</h2>
+          <hr>
+        <p class="lead">
+          Greetings, my name is Harsh - I'm a Computer Science engineer and an aspiring Web Developer
+        </p>
+        <p>
+          I enjoy watching movies and sports(mostly cricket). 
+          </p>
+        <img src="https://i.pinimg.com/originals/18/15/f7/1815f76fe1aade4905bb8066fe0c7b4d.jpg" alt="Shetty" class="center-block img-responsive img-circle"/>
+        </div> <!-- .col-md-8 -->
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- #about -->  
+  <div id="portfolio" class="jumbotron background-primary text-inverse">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center">Portfolio</h2>
+        <hr>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" page="avoriaz">
+             <img src="data:image/png;base64,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">
+              <div class="thumbnail-overlay" page="avoriaz">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+          </a>
+        </div> <!-- .col-md-3 -->
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" page="vue-test-utils">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEOklEQVR4nO2dz4uNURjHPxbyY35ElDGzUCJSfuS3hdj4sZKdMlbKbFhgYUZZKTtkZhQWFlJ2LLCzoYjwD0iGkBAmvw3Dq1OPut3M+859733f5znnnm89i7mdOef7/XZ6nvOec99zwQbagJVAN3AEGASuAHeAx8AT4INEIvHv7yfSxrW9DAxIH93Sp+u7KdEGbBIzrgHPK8wrKp7LWEdk7GDNnwv0iNgfJRibFaPAbaAXWAFMwGN0AkeBIQPGZsWQcHWcvcKaqnyaeBKO82o8wl0DpiU5wxVVb/ClQaI3AIuBLmA60FIxRot81iVtNjRozE94hDsZYp4CF4G9UozGalcrxurHjbFPxnwW0oxeBQxXCbgLHAQW/qd90UZXY6FwuVfVbljW3l5htizpeoB5GW2HxyhMtSJPP/MreHYQOE7/x6ABxX6CxRTgLPBV4ox8ptVP8JjQoKe0RvUTERFhElOB5cAO4ABwErgE3ADuA4+A1xVboqMVRW604vPX0va+/O8l6euA9L1cxmoKTATWA4dkr9k9tPwp8dH6j4x5RTisF05BwFX8nbIh/7FEU8cbH4XbTl9XJ3PklMSiuUmK6YPC3TymywPCTwPGJTnjp2iYhlFsBF4ZMCppULwSTaawC/hVo5ARKUplnGp0yrHVSI0cf4k2E9hatewab/QqcO3NwdNp24Iy2utIF7MV+Hbk5PpGO2cfriMHdirw7ayDbx+KeFgH8V4Fvn118HVa1fCtDuIjYrblYlgZbttVDUmThRq0hSfRaH1TkjijUTcspg5sR8zRNKnRZe5jlLkEVIOlh5Ey9kPUYGkfo4z9EDWYIxSqLnOEQtVljlCouswRClWXOUKh6jJHKFRd5giFqsscoVB1mSMUqi5zhELVZY5QqLrMEQpVlzlCoeoyRyhUXeYIhaprLEI+naxUo8sno30+Yenzyegyv+7V1GeGoYYatIUn0Wh9U5I4o1E3LKYObEfM0USjGzKTvgOn5E66Fgl3t15/yTdDBj2jXwBLUjgslTbRaOqbyWkmV5pdxsxWQ9HCTtXAxb2/HY0mnwm13BO6NhpN7pnWWoPRrSHP6K+GjG4vmMtnFPG0iVLHEIq4XrC4/hq4DBbM5SqKOFiwuB+ydMvCsjpfPx5P7Ef52Kfoa31eZJjtTH5ZMIcRC6+LXChYZCIze0DycKvEOkkXRc9kF+cx8nLN+xLEJkrxDpiFEWzPed1PYjycpm0Ywx7gd2Am78YotgaSRt4BmzGOmVKkLPyCUJJjt9AV3Rl4BHer4zED5iXjjGOWb2/MwokUYXsU+PSk8DmOp5gEvE3ZoGlT4NSacjGty8uT8RDdKbPnrCKvcym83PXG3uFWxi/9aGFpCq+beIYFKbedP9Aml3Ex4iI8wskUIT3a5EIpillFsF2bYChF0WoRDK4oWi2C1VgRUlGMiIggRPwFp6HC5BwhsT4AAAAASUVORK5CYII=">
+            <div class="thumbnail-overlay" page="vue-test-utils">
+              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+            </div>
+          </a>
+        </div> <!-- .col-md-3 -->
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" page="book">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLklEQVR4nO2cPWsUURSGHw0kRKyCVYzaamwkWASEICgS0FJL/4FausFGU4ixE/z6DZKATVobQUVEYiVotDMxQRTFQtRkrwycxWHZyewud2fu3HkfeJuZyTlz39w99+ydZUAIIYT4z2ngPLCL4klyXgBOETkngSbggPkS8s9b7qbdS7Scs4Em+gtMF5h72nK28p8lYnYDT1KD/QjsLSDvHuBdKu9Tu5eomQC+pQb9oICcD1P5vgOHqAkXUwNP6uVsh2uGgBlgDlgC3gKfgV+mdTu2aNfM2N+0M5taF5zlrhVLqcGvAWN2fBK4D2ykzner5B9xDzhiscYsdut8krN27LNZ2TJh2YzY7sPgdm3bTF9OHVu3nLXkTNvHelBqxt5l5HEQ2CzA6CTHAWrKcaupgzY5XTqmqBlTbS3eb+AqMG5q2LFezcyL8xU4Ro3LRaPDdY0+jO4mzob18lEzArzuYFAy+9oZ78PobuO8AoaJmJs9GLTfk9FZccrY1CqEybZNnbyP/Jyn0pEV5w9wmAh5nLOINTwthr3ESb7URMXRgr6Y9KpmbLP6bgCmZukOkTAEfAnA0CxtxrI3fSIAM/NU5JOegXEtACP76VYqx2IARubpUdkmCSGEEEKUR7KPe9seDSWP8hdy9nZdReRrvN5Y6HCTybEsXEXka7zeSP8Wo6XkIWsWriLyNV5v9HqjriLyNV5vyGhktNOMpvTSoNJB+SarRiOj1XUMGnUdqOtwqtGUvthpMaR8k9V1IKPVdQwadR2o63Cq0ZS+2GkxpHyT1XUgo9V1DBp1HajrcKrRlL7YaTGkfJPVdVBjo9NvdGnpUx836gKTr/F6o9NPpG7tcL2riHyN1xvDlnytRj9yXOhhvKXxMwAT8/SDCHgZgJF5ekEEXAnAyDxdIpKXobwJwMwsrYRac/thIlCzV+zFKVExAly2eljmApnkfm7lIpqZvBOuC4UQs/I4GS2jo8JpRsvoqHCa0TI6KpxmtIyOCqcZXQxbOUZvBRKz8nzIMeV9IDErz3yOKdcDiVl5Rm0XrZMhz+x8CDGjYBS4Aaza64dXbdaNBhZTCCGEEIJq8A/pJlU6yVS2FgAAAABJRU5ErkJggg==">
+            <div class="thumbnail-overlay" page="book">
+              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+            </div>            
+          </a>
+        </div> <!-- .col-md-3 -->
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" page="blog">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADCElEQVR4nO2dv2oUURSHv4C6QSs1ha4BQS0sk0pFUItUPoOPEJPO9RG0EBWtBa0UQTsb/5SuQWG1sNAnUKxi0izqXhm4RRTdvXd2ds6dO78PTrU798x8HM5Mzkx2QAghhBCiScwD68AGsA24hsc28AZYAzokwiLwIQE5bkbx3h+jeSXnLNntkG1a2esJSHA1xWVL0RsJCHA1Rd9S9FYCAlxNURyrGa5lYYb1gTuJtpfiVNH8IeEZcAk4BuzzcQ54lYDYLFrHJnBxzNpzwIME5DZa9A/gbMD6u4CTwP0EJDdS9I0SuR5JdJzkX8DREqKPAyNVdLjoAeUptlXrCJRwbwrRDyU6vNKuTSH6pkSHi74+hehiW7WOQAmPpxBtfeVhRpmd/QbsLpGruKb+KtHhoj/6OzOxzPttVdGBEu5QnrsRoofAFaA7Zr3is57/bnat4/kU+V5E5CkEhtLLUfRPYKVErhW/bWiecZX8N90cRTsv7GBEnv2RkmNFH8lVtANWI/Ksllg/pnVczVn0F2AhIMeC/27s+kMvu7UnQ7cjipPb3jHrF5+9rCBPVWFGFTt/Ycz65xOQK9FIdFSVnB5T0acSqOIsKrrvb8L+j7nEHjszo+wOj4AnwIGAHMX19tMEbmM1SvTIS1sukWs5UnhrZx2fJvTjUM4AnwPytXLW8db/GV0VxVrvJuRs3azju39UoGpOTHhsuHWib80w/+2KWkcWs46lGeZfmnAy1KyDZoYZ1gfuJNpeilNFYy5MrYO0Qz0aiTavQlU09uLUOrCX2rgePQwYV1qR1Zi0R/pkMSY9TPocykF0l/TJ4pGwHumTxZh0GDCutCKrk6HLKCQaiTavQlU09uLUOrCXqh6NRP+zCoaaddRzedcjfTTrqAnNOmpCs46a0KxjxmjWgf01s66jkWjzinOqaMwlqXVgL1A9mrTCjDb99PympeiU/qvV5fwyhbUEBLiaIuaHXCqn418G4zKPAbAHYxYzlz3wQ6ck6Pg37/QzOUFuAa99uzCvZCGEEEIIgvkNhv8mDXL4B1UAAAAASUVORK5CYII=">
+            <div class="thumbnail-overlay" page="blog">
+              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+            </div>            
+          </a>
+        </div> <!-- .col-md-3 -->        
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- #portfolio -->
+  <div id="contact" class="jumbotron">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 class="">Get In Touch</h2>
+        <hr>
+        <form action="mailto:harshcs1510@gmail.com"  enctype="text/plain" method="post">
+        <div class="form-group">
+          <label for="InputEmail">Email address</label>
+          <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+        </div> <!-- .form-group -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" class="form-control" rows="3"></textarea>
+        </div> <!-- .form-group -->
+        <input type="submit" name="submit" class="btn btn-inverse">
+      </form>
+      </div> <!-- .col-md-8 -->
+    </div> <!-- .container -->
+  </div> <!-- #contact -->
+
+<div class="text-center text-inverse navbar-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+            <h3>Location</h3>
+                <p>Moodbidri</p>
+        </div> <!-- .footer-col -->
+        <div class="footer-col col-md-4">
+            <h3>Connect With Me</h3>
+            <ul class="list-inline">
+              <li>
+                   <a class="medium" href="https://github.com/harshcs1510" target="newwindow"><span class="fui-github"></span></a>
+              </li>
+              <li>
+                  <a class="medium" href="https://www.linkedin.com/in/harsh-shetty-bbb96b212/" target="newwindow"><span class="fui-linkedin"></span></a>
+              </li>
+              <li>
+                  <a class="medium" href="https://twitter.com/imharshs15" target="newwindow"><span class="fui-twitter"></span></a></a>
+              </li>
+            </ul>
+        </div> <!-- .footer-col -->
+        <div class="footer-col col-md-4">
+            <h3>Hire Me</h3>
+            <p>I'm available for internships</p>
+        </div> <!-- .footer-col -->
+      </div> <!-- .row -->
+    </div> <!-- .container --> 
+    <div class="background-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+             Copyright © Shetty 2023
+          </div> <!-- .col-lg-12 -->
+        </div> <!-- .row -->
+      </div> <!-- .container  -->
+    </div> <!-- .background-secondary -->
+  </div> <!--  -->
+<div id="avoriaz" class="full-screen">
+  <div class="container">
+      <div class="col-md-6 text-center center">
+      <div class="row">
+      </div> <!-- .row -->        
+        <p class="lead">Virtual Event Platform</p>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <a class="btn-inverse btn-block btn-lg" target="_blank" href="">View</a>
+        </div> <!-- .col-md-6 -->
+        <div class="col-md-3">
+          <a class="btn-danger btn-lg close-window btn-block">Close</a>
+        </div> <!-- .col-md-6 -->        
+      </div> <!-- .row -->      
+    </div> <!-- .col-md-6 -->
+  </div> <!-- .container -->
+</div> <!-- .full-screen -->
+<div id="vue-test-utils" class="full-screen">
+  <div class="container">
+    <div class="col-md-6 text-center center">
+      <div class="row">
+      </div> <!-- .row -->       
+      <p class="lead">
+       Online Railway Reservation Platform
+      </p>
+     
+      <hr>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="">View</a>
+        </div> <!-- .col-md-6 -->
+        <div class="col-md-3">
+          <a class="btn-danger btn-lg close-window btn-block">Close</a>
+        </div> <!-- .col-md-6 -->        
+      </div> <!-- .row -->      
+    </div> <!-- .col-md-6 -->
+  </div> <!-- .container -->
+</div> <!-- .full-screen -->
+<div id="book" class="full-screen">
+  <div class="container">
+    <div class="col-md-6 text-center center">
+      <div class="row">
+      </div> <!-- .row -->          
+      <p class="lead">Android Application</p>
+      
+      <hr>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <a class="btn-inverse btn-block btn-lg" target="_blank" href="">View</a>
+        </div> <!-- .col-md-6 -->
+        <div class="col-md-3">
+          <a class="btn-danger btn-lg close-window btn-block">Close</a>
+        </div> <!-- .col-md-6 -->        
+      </div> <!-- .row -->
+    </div> <!-- .col-md-6 -->
+  </div> <!-- .container -->
+</div> <!-- .full-screen -->
+<div id="blog" class="full-screen">
+  <div class="container">
+    <div class="col-md-6 text-center center">
+      <div class="row">
+      </div> <!-- .row -->
+      <p class="lead">
+        My Resume
+      </p>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <a class="btn-inverse btn-block btn-lg" target="_blank" href="">View</a>
+        </div> <!-- .col-md-6 -->
+        <div class="col-md-3">
+          <a class="btn-danger btn-lg close-window btn-block">Close</a>
+        </div> <!-- .col-md-6 -->        
+      </div> <!-- .row -->
+    </div> <!-- .col-md-6 -->
+  </div> <!-- .container -->
+</div> <!-- .full-screen -->
+</main>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
